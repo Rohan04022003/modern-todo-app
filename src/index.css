@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: thick;
+  src: url(./fonts/Gilroy-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: normal;
+  src: url(./fonts/Gilroy-Regular.ttf);
+}
+
+* {
+  user-select: none;
+  font-family: "normal";
+}
+
+h2 {
+  font-family: "thick";
+}
+
+.tasks::-webkit-scrollbar {
+  width: 0;
+}
